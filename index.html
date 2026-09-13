@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="林墨的个人名片">
+  <title>林墨 | 个人名片</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="page-shell">
+    <!-- 个人信息卡片：集中呈现头像、姓名、职位和联系方式 -->
+    <article class="profile-card">
+      <div class="profile-header">
+        <!-- 使用远程头像图片，加载失败时显示替代文字 -->
+        <img
+          class="avatar"
+          src="https://i.pravatar.cc/160?img=12"
+          alt="林墨的圆形头像"
+        >
+        <div class="identity">
+          <h1>林墨</h1>
+          <p class="job-title">前端开发工程师</p>
+        </div>
+      </div>
+
+      <div class="divider" aria-hidden="true"></div>
+
+      <!-- 联系方式列表：每一项都使用可直接操作的链接 -->
+      <ul class="contact-list" aria-label="联系方式">
+        <li>
+          <span class="contact-icon" aria-hidden="true">@</span>
+          <a href="mailto:linmo@example.com">linmo@example.com</a>
+        </li>
+        <li>
+          <span class="contact-icon" aria-hidden="true">☎</span>
+          <a href="tel:+8613800138000">+86 138 0013 8000</a>
+        </li>
+        <li>
+          <span class="contact-icon" aria-hidden="true">⌂</span>
+          <span>上海，中国</span>
+        </li>
+      </ul>
+    </article>
+  </main>
+</body>
+</html>
